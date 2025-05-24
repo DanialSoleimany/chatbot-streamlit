@@ -3,8 +3,9 @@
 An interactive **Streamlit chatbot app** powered by **Gemini 1.5 Flash**, allowing users to upload images and documents and ask questions based on their content.
 
 <div align="center">
-  <img src="demo_screenshot.png" alt="Chatbot Screenshot" width="80%">
+  <img src="https://github.com/DanialSoleimany/chatbot-streamlit/blob/main/chatbot.png?raw=true" alt="Chatbot Screenshot" width="80%">
 </div>
+
 
 ## 📚 Table of Contents
 
