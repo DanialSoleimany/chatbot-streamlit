@@ -34,37 +34,30 @@ This app enables users to:
 - ✅ Secure API key handling via `secrets.toml`
 
 ## 📦 Installation
+
 ```bash
 git clone https://github.com/your-username/gemini-flash-chatbot.git
 cd gemini-flash-chatbot
 pip install -r requirements.txt
+
 ⚙️ Configuration
 Create a .streamlit/secrets.toml file:
-
-toml
-Copy
-Edit
 GEMINI_API_KEY = "your_google_generative_ai_key"
 Note: Never commit this file to source control! It contains sensitive keys.
 
 🧪 Usage
-bash
-Copy
-Edit
 streamlit run app.py
-After launching:
 
+After launching:
 Upload images and/or documents using the uploader panel.
 
-Ask a question like:
-
+Ask a question like❓
 “What does the PDF say about climate change?”
 “Summarize the text documents”
 “Describe the uploaded images”
 Get real-time, AI-generated responses using Gemini Flash.
 
 📁 Project Structure
-
 gemini-flash-chatbot/
 │
 ├── app.py                 # Main Streamlit app
@@ -87,29 +80,26 @@ gemini-flash-chatbot/
 ## 📌 TODOs
 
 ### 🔧 Functionality
-- [ ] Add image preview panel
-- [ ] Add per-file action buttons (analyze/download)
-- [ ] Add support for more file formats (`.csv`, `.pptx`, `.md`, etc.)
-- [ ] Add ComboBox for selecting from multiple LLMs (Gemini, OpenAI, Claude, etc.)
-- [ ] Support multiple API providers with separate API keys
-- [ ] Add support for image generation via prompt (text-to-image)
+- Add image preview panel
+- Add per-file action buttons (analyze/download)
+- Add support for more file formats (`.csv`, `.pptx`, `.md`, etc.)
+- Add ComboBox for selecting from multiple LLMs (Gemini, OpenAI, Claude, etc.)
+- Support multiple API providers with separate API keys
+- Add support for image generation via prompt (text-to-image)
 
 🧠 User Experience
- - Deploy to Streamlit Cloud
- - Make chat history searchable
- - Add response export (e.g. save chat as PDF or markdown)
- - Add per-question response timestamp
- - Enable theme switching (light/dark mode)
+- Deploy to Streamlit Cloud
+- Make chat history searchable
+- Add response export (e.g. save chat as PDF or markdown)
+- Add per-question response timestamp
+- Enable theme switching (light/dark mode)
 
 🧪 Developer Tools
- - Add logging for debugging
- - Add unit tests for file parsing
- - Refactor file processing logic into reusable modules
- - Add support for user login / session management
- - Cache previous responses to reduce API calls
+- Add logging for debugging
+- Add unit tests for file parsing
+- Refactor file processing logic into reusable modules
+- Add support for user login / session management
+- Cache previous responses to reduce API calls
 
 🤝 License
 MIT License © 2025 [Your Name]
-
-
-
