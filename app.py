@@ -19,7 +19,7 @@ if "docs_text" not in st.session_state:
     st.session_state.docs_text = []
 
 # App title
-st.title("🎨 Gemini Flash Chatbot")
+st.title("Chatbot")
 
 # One row with two columns for file uploaders
 col1, col2 = st.columns(2)
